@@ -1,4 +1,6 @@
-# Byte-compiled / cache
+# ===============================
+# Python cache / build artifacts
+# ===============================
 __pycache__/
 *.py[cod]
 *.pyo
@@ -12,24 +14,30 @@ __pycache__/
 env/
 venv/
 
-# OS junk
+# ===============================
+# OS junk files
+# ===============================
 .DS_Store
 Thumbs.db
 
-# Model / ML artifacts
+# ===============================
+# Machine Learning / Model files
+# ===============================
 *.pkl
 *.h5
 *.pt
 *.onnx
 
+# ===============================
 # Logs
+# ===============================
 *.log
 
-# Videos (raw + processed)
-videos/*
-!videos/README.md
 
-# Frames (ignore extracted frames but keep plots)
+# ===============================
+# Frames (ignore extracted frames 
+# but keep plots + metadata)
+# ===============================
 frames/*
 !frames/_plots/
 !frames/_plots/*.png
@@ -37,14 +45,18 @@ frames/*
 !frames/_plots/*.txt
 !frames/README.md
 
-# Plots caches
+# ===============================
+# Cache folders
+# ===============================
 *_cache/
 
-# Outputs
+# ===============================
+# Outputs (media formats)
+# NOTE: PNGs from _plots are unignored above
+# ===============================
 *.mp4
 *.avi
-*.jpg
-*.jpeg
-*.png
 *.mov
 *.mkv
+*.jpg
+*.jpeg
