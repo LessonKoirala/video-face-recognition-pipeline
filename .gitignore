@@ -1,0 +1,50 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Model / ML artifacts
+*.pkl
+*.h5
+*.pt
+*.onnx
+
+# Logs
+*.log
+
+# Videos (raw + processed)
+videos/*
+!videos/README.md
+
+# Frames (ignore extracted frames but keep plots)
+frames/*
+!frames/_plots/
+!frames/_plots/*.png
+!frames/_plots/*.json
+!frames/_plots/*.txt
+!frames/README.md
+
+# Plots caches
+*_cache/
+
+# Outputs
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+*.mov
+*.mkv

@@ -1,0 +1,10 @@
+between_l2: 5.401691877529541
+between_cosine: 0.03746529987326852
+within_l2_mean: 9.737647680835106
+within_cosine_mean: 0.11221363389319008
+person1_within_l2: 10.689819296954246
+person2_within_l2: 8.785476064715965
+person1_within_cosine: 0.1319560764423023
+person2_within_cosine: 0.09247119134407787
+separation_ratio_l2: 0.5547224601441206
+separation_ratio_cosine: 0.3338747581147729
